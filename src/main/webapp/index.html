@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>Top page</title>
+<!--ブラウザタブでの表示名-->
+</head>
+
+<h1>TOP PAGE</h1>
+<body>
+	<p>
+		HTMLサンプル：HTMLファイルに遷移<br> キーワード：サーブレット、HTML、フォワード
+	</p>
+	<button
+		onclick="location.href='http://localhost:8080/workshop-by-endo/htmlSample'">
+		HTMLサンプル</button>
+
+	<p>
+		HelloWorld：サーブレット内にHTMLを記載<br> サーブレット内で実行時刻による分岐処理をおこない、挨拶文言を変える。<br>
+		キーワード：response.setContentType()、分岐処理
+	</p>
+	<button
+		onclick="location.href='http://localhost:8080/workshop-by-endo/helloWorld'">
+		HelloWorld</button>
+
+	<p>
+		フォーム：HTML内のフォームからユーザ情報を入力し、登録された旨を表示する。<br>
+		フォームに入力されたパラメータをサーブレットで受取り、Beanに格納し、Attributeを介してJSPに渡す。<br>
+		キーワード：Parameter、Attribute、JSP、Bean
+	</p>
+	<button
+		onclick="location.href='http://localhost:8080/workshop-by-endo/userRegistration'">
+		ユーザ登録</button>
+
+	<p>
+		科目追加一覧：DBに接続し科目の追加を行う。<br> キーワード：JDBC、mySQL、INSERT
+	</p>
+	<button
+		onclick="location.href='http://localhost:8080/workshop-by-endo/subjectRegistration'">
+		科目追加</button>
+	<p>
+		社員一覧：DBに接続し社員一覧を取得する。<br> キーワード：MODEL、DAOの分離、SELECT
+	</p>
+	<button
+		onclick="location.href='http://localhost:8080/workshop-by-endo/employeeList'">
+		社員一覧</button>
+	<p>
+		社員一覧：DBに接続し社員一覧を取得する。（処理内容変更）<br> キーワード：abstract
+	</p>
+	<button
+		onclick="location.href='http://localhost:8080/workshop-by-endo/employeeListWithAbstract'">
+		社員一覧</button>
+</body>
+</html>
